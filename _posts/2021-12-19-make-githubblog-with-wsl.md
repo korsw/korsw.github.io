@@ -82,6 +82,9 @@ webrick 오류가 발생한다면
 bundle add webrick
 ```
 
+![create-github.io](/assets/img/2021-12-19-make-githubblog-with-wsl/jekyll serve.png){: width="1086" height="542"}
+_jekyll serve 실행_
+
 http://127.0.0.1:4000/의 주소가 출력되는데 이로 접속하면 테마가 적용된 것을 확인할 수 있다.
 
 내가 작성하지 않은 글들이 존재한다. 이걸 초기화해야한다.
