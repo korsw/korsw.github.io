@@ -65,7 +65,7 @@ git clone https://github.com/[username]/[username].github.io.git
 
 그 후 해당 경로의 최상단으로 이동한 후에
 
-````?
+```?
 bundle install
 ```
 를 입력해 bundle을 설치해준다.
@@ -105,7 +105,7 @@ bash tools/init.sh
 
 그리고 이제 GitHub와 연결할 시간이다
 
-````
+```?
 git add -A
 git commit -m "setTheme"
 git push
