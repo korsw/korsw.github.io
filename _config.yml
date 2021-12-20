@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 title: Korsw' blog                          # the main title
 
-tagline: study   # it will display as the sub-title
+tagline: 안드로이드, Kotlin, Java 공부   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
