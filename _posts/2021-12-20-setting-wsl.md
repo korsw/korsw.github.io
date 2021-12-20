@@ -111,3 +111,9 @@ gedit	#gedit 실행!
 ![run-gedit](/assets/img/posts/2021-12-20-setting-wsl/run-gedit.png){: width="1086" height="542"}
 _실행된 gedit 모습_
 [테마](https://www.gnome-look.org/p/1403328/){: target="_blank"}를 설정해서 저런 모습이지만 GUI가 잘 실행된다.
+
+## Reference
+
+[Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install){: target="_blank"}<br/>
+[Manual installation steps for older versions of WSL](https://docs.microsoft.com/en-us/windows/wsl/install-manual){: target="_blank"}<br/>
+[Run Linux GUI apps on the Windows Subsystem for Linux (preview)](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps){: target="_blank"}<br/>
