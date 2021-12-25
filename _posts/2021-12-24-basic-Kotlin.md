@@ -3,7 +3,7 @@ title: Kotlin 키워드 (fun, val, var)
 author: korsw
 date: 2021-12-24 15:08:09 +0900
 categories: [Kotlin]
-tags: kotlin, class
+tags: [kotlin, class]
 ---
 
 ## 함수
