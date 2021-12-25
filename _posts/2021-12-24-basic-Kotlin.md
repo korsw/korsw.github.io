@@ -18,21 +18,21 @@ fun main() {
 함수를 사용하다보면 파라미터를 넣어야할 경우가 생기는데 파라미터를 넣을때 뒤에 **: 자료형** 형태로 정의해야한다
 ```kotlin
 fun main(bar: String) {
-	foo
+	foo()
 } 
 ```
 위의 코드에서 main함수에 String형태의 bar를 넘겨준것을 알 수 있다.<br/>
 함수의 경우도 반환값이 있을 수 있다. 이 또한 함수 선언 뒤에 **: 자료형** 형태로 정의해야한다.
 ```kotlin
 fun main(bar: String): Int {
-	foo
+	foo()
 } 
 ```
 Int값을 반환하는 함수를 선언했다.
 물론 반환값이 없거나 의미없는 경우도 있을텐데 이 경우 **Unit**을 사용한다.
 ```kotlin
 fun main(bar: String): Unit {
-	println("foo")
+	println("foo")()
 } 
 ```
 다행스럽게도 Unit은 생략가능하다.
