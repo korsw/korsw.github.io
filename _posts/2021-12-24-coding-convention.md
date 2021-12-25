@@ -3,7 +3,7 @@ title: 코딩 규칙(coding convention)을 알아보자! 카멜 표기법,
 author: korsw
 date: 2021-12-24 18:16:07  +0900
 categories: [Dev, common]
-tags: coding convention
+tags: [coding convention]
 ---
 
 ## Reference
