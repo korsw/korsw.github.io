@@ -50,3 +50,6 @@ _레지스트리 편집기_
 이제 재부팅하면 웹 검색이 없어진다!<br/>
 
 ![result](/assets/img/posts/2022-01-02-remove-bing-search/result.png)
+
+## Reference
+[How to Remove Bing Search Results From Windows 11 Start Menu](https://beebom.com/how-remove-bing-search-results-windows-11/){: target="_blank"}
