@@ -3,7 +3,7 @@ title: 시작 메뉴에서 bing 검색을 제거해보자
 author: korsw
 date: 2022-01-02 00:52:34 +0900
 categories: [Tip, windows 11]
-tage: [tip, bing, windows 11]
+tags: [tip, bing, windows 11]
 ---
 
 나는 윈도우에서 프로그램을 실행할 때, window 키를 누르고 프로그램명을 검색해서 실행하는 편이다.<br/>

@@ -1,7 +1,7 @@
 ---
 title: TextView 사용법
 author: korsw
-categories: [Andoird, Android Kotlin]
+categories: [Android, Android Kotlin]
 tags: [android, kotlin, View]
 ---
 

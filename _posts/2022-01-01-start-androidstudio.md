@@ -3,7 +3,7 @@ title: 안드로이드 스튜디오 설치 및 프로젝트 만들기
 author: korsw
 date: 2022-01-01 21:13:09 +0900
 categories: [Android, Android Kotlin]
-tages: [android, androidstudio]
+tags: [android, androidstudio]
 ---
 
 안드로이드를 개발하려면 안드로이드의 IDE(Integrated Development Environment)부터 설치해야한다.<br/>
