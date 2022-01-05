@@ -1,0 +1,25 @@
+---
+title: 함수형 프로그래밍
+author: korsw
+date: 2022-01-05 23:11:57 +0900
+categories: [Dev, common]
+tags: [Functional Programming]
+---
+
+코틀린을 공부하다가 함수형 프로그래밍 개념을 확실하게 알아두는것이 좋을 것 같아서 한번 정리하고 가야겠다는 생각이 들었다.<br/>
+함수형 프로그래밍의 특징은 다음과 같다.
+
+1. first class 함수
+2. 불변성(immutability)
+3. side effect 없음
+
+**first class 함수**
+first class 함수는 함수를 일반 값처럼 다룰 수 있다는 뜻이다. 함수를 변수에 저장할 수 있고, 파라미터로도 사용 가능하며, 함수로 반환도 가능하다는 것이다.<br/>
+<br/>
+**불변성(immutability)**<br/>
+불변성은 내부 상태가 변경되지 않는 불변 객체를 사용해 작성한다는 것이다.
+<br/>
+<br/>
+**side effect 없음**<br/>
+같은 입력값에 대한 출력이 항상 같고, 다른 객체의 상태를 변경시키지 않고, 다른 함수를 포함한 외부와 상호작용하지 않는 순수 함수(pure funtion)을 사용한다는 것이다.
+
