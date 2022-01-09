@@ -46,10 +46,14 @@ _xml에 작성방법_
 
 | layout_constrain | 의미 | 예시 |
 |---|:---|:---|
-| layout_constraintTop_toTopOf | 시작(왼쪽)으로 제약 | app:layout_constraintBottom_toBottomOf="parent" |
-| layout_constraintStart_toStartOf | 상단으로 제약 | app:layout_constraintEnd_toEndOf="parent" |
-| layout_constraintEnd_toEndOf | 끝(오른쪽)으로 제약 | app:layout_constraintStart_toStartOf="parent" |
-| layout_constraintBottom_toBottomOf | 하단으로 제약 | app:layout_constraintTop_toTopOf="parent" |
+| layout_constraintStart_toStartOf | 시작(왼쪽)을 다른 뷰의 시작(왼쪽)을 기준으로 제약 | app:layout_constraintStart_toStartOf="parent" |
+| layout_constraintStart_toEndOf | 시작(왼쪽)을 다른 뷰의 끝(오른쪽)을 기준으로 제약 | app:layout_constraintStart_toEndOf="parent" |
+| layout_constraintTop_toTopOf | 상단을 다른 뷰의 상단을 기준으로 제약 | app:layout_constraintTop_toTopOf="parent" |
+| layout_constraintTop_toBottomOf | 상단을 다른 뷰의 하단을 기준으로 제약 | app:layout_constraintTop_toBottomOf="parent" |
+| layout_constraintEnd_toEndOf | 끝(오른쪽)을 다른 뷰의 끝(오른쪽)을 기준으로 제약 | app:layout_constraintEnd_toEndOf="parent" |
+| layout_constraintEnd_toStartOf | 끝(오른쪽)을 다른 뷰의 시작(왼쪽)을 기준으로 제약 | app:layout_constraintEnd_toStartOf="parent" |
+| layout_constraintBottom_toBottomOf | 하단을 다른 뷰의 하단을 기준으로 제약 | app:layout_constraintBottom_toBottomOf="parent" |
+| layout_constraintBottom_toStartOf | 하단을 다른 뷰의 상단을 기준으로 제약 | app:layout_constraintBottom_toStartOf="parent" |
 
 모두 안하고 수직,수평 하나씩 해줘도 된다. 굳이? 정말?
 
