@@ -13,7 +13,13 @@ List는 여러개의 값을 순서 있게 저장하는 데이터 유형이다.<b
 | List | List<T> | 생성 이후 수정 불가 | val numbers: List<Int> = listOf(1, 2, 3) |
 | MutableList | MutableList<T> | 생성 이후 수정 가능 | val numbers: MutableList<Int> = mutableListOf(1, 2, 3) |
 
-List와 MutableList 두가지가 있지만 List사용을 권장하고 있다. 그래도 MutableList의 기능엔 무엇이 있는지 알아보자 
+List와 MutableList 두가지가 있지만 List사용을 권장하고 있다. 그래도 List와 MutableList의 기능엔 무엇이 있는지 알아보자 
+
+| List | 형태 | 의미 | 예시 |
+|---|:---|:---|:---|
+| reversed() | .reversed() | 리스트 역순 출력 | list.reversed() |
+| sorted() | .sorted() | 리스트 요소 정렬 후 출력 | list.sorted() |
+
 
 | MutableList | 형태 | 의미 | 예시 |
 |---|:---|:---|:---|
