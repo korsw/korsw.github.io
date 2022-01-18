@@ -32,6 +32,7 @@ List와 MutableList 두가지가 있지만 List사용을 권장하고 있다. �
 | removeAll | .remove(list) | 주어진 list에 포함된 요소 찾아서 삭제<br/>삭제시 `true`, 실패시 `false` 반환 | mutableList.remove(list) |
 | removeAt | .removeAt(index) | 해당 인덱스 요소 반환 후 삭제 | mutableList.removeAt(1) |
 | retainAll | .retainAll(list) | list에 존재하는 요소 빼고 전부 삭제 | mutableList.retainAll(list) |
+| isEmpty | .isEmpty() | 리스트가 비어있는지 확인<br/>비었으면 `true` 요소가 존재하면 `false` 반환 | mutableList.isEmpty() |
 
 
 
