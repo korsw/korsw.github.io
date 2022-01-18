@@ -24,7 +24,7 @@ List와 MutableList 두가지가 있지만 List사용을 권장하고 있다. �
 | MutableList | 형태 | 의미 | 예시 |
 |---|:---|:---|:---|
 | add | .add(index, elements) | 인덱스(생략시 맨 뒤)에 요소 추가<br/>성공시 `true`, 실패시 `false` 반환 | mutableList.add(3)<br/>mutableList.add(0, 3) |
-| addAll | .add(index, list) | 인덱스(생략시 맨 뒤)에 리스 추가 | mutableList.add(List)<br/>mutableList.add(0, List) |
+| addAll | .addAll(index, list) | 인덱스(생략시 맨 뒤)에 리스트 추가 | mutableList.addAll(List)<br/>mutableList.addAll(0, List) |
 | set | set(index, elements) | 인덱스의 값을 요소값으로 변환 후<br/>인덱스에 있던 값 반환 | mutableList.set(1, 3) |
 | iterator<br/> | iterator()<br/>listIterator() | iterator 반환 | mutableList.iterator()<br/>mutableList.listIterator() |
 | clear | .clear() | 요소 삭제 | mutableList.clear() |
