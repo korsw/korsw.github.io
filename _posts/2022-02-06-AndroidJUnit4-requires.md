@@ -1,5 +1,5 @@
 ---
-title: AndroidTest의 AndroidJUnit4 requires a public constructor that takes a Class<?>. 에러 해결
+title: AndroidTest의 AndroidJUnit4 requires a public constructor that takes a Class 에러 해결
 author: korsw
 date: 2022-02-06 22:54:12 +0900
 categories: [Android, AndroidTest]
