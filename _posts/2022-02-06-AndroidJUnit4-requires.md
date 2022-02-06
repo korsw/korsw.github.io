@@ -26,7 +26,7 @@ dependencies {
 }
 ```
 
-이러했던 gradle 모듈을
+문제없다고 생각했던,,, gradle 모듈을
 
 ```kotlin
 dependencies {
