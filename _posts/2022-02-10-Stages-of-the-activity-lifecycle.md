@@ -9,6 +9,9 @@ tags: [android, activity, lifecycle]
 안드로이드에도 최초 초기화부터 메모리 회수까지의 라이프 사이클이 존재한다.<br/>
 엑티비티를 실행하고, 뒤로가고, 일시정지하고, 등등... 다양한 경우가 있기 때문에 이에 맞춰 변하는 라이프 사이클을 알면 좋을 것 같아서 글을 작성한다<br/>
 <br/>
+
+## Activity Lifecycle
+
 ![Activity Lifecycle]()
 <br/>
 
