@@ -12,12 +12,23 @@ tags: [android, activity, lifecycle]
 
 ## Activity Lifecycle
 
-![Activity Lifecycle]()
+![Activity Lifecycle](/assets/img/posts/2022-02-10-Stages-of-the-activity-lifecycle/The-Activity-Lifecycle.png){: width="345" height="403"}
+_엑티비티 라이프 사이클_
 <br/>
-
-안드로이드 개발을 하다보면 개발자의 생각과 다른 실행 결과가 나올 경우들이 많이 있다.<br/>
-~~대부분은 버그입니다~~<br/>
-이러한 경우 안드로이드의 라이프사이클을 확인하면 도움이 될 수 있다.<br/>
+엑티비티는 엑티비티 스택에 의해서 관리된다.<br/>
+보통 새로운 엑티비티가 시작되면 스택의 맨 위에 배치되어 실행된다.<br/>
+그 전에 실행되고 있던 엑티비티는 스택의 아래에 남아있고, 새로운 엑티비티가 종료되기 전까지는 다시 나타나지 않는다.<br/>
+물론 한 화면에 여러개의 엑티비티가 보일 수 있다.<br/>
 <br/>
+엑티비티의 상태에는 네 가지가 존재한다.
+
+| 상태 | 의미 |
+|---|:---|
+| **running** | 스택의 가장 높은 위치에 존재하며 화면에 실행중인 상태 |
+| **visible** | 포커스는 잃었지만, 사용자에게 보이는 상태<br/>- 모든 상태와 정보를 유지하는 중 |
+| **stopped** or **hidden** | 엑티비티가 다른 엑티비티로 인해 완전히 가려지는 경우<br/>- 모든 상태와 정보를 유지하는 중<br/>- 다른 곳에서 메모리가 필요하면 kill 가능 |
+| **destroyed** | 시스템으로부터 엑티비티 종료가 되거나, kill 당하는 상태<br/>- 다시 표시될 때, 완전히 다시 시작하고 이전 상태로 복원해야 함 |
 
 
+![Activity Lifecycle Diagram](/assets/img/posts/2022-02-10-Stages-of-the-activity-lifecycle/Activity-Lifecycle-Diagram.png)
+_엑티비티 라이프 사이클 다이어그램_
