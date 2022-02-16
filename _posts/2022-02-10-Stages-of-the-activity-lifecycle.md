@@ -29,6 +29,9 @@ _엑티비티 라이프 사이클_
 | **stopped** or **hidden** | 엑티비티가 다른 엑티비티로 인해 완전히 가려지는 경우<br/>- 모든 상태와 정보를 유지하는 중<br/>- 다른 곳에서 메모리가 필요하면 kill 가능 |
 | **destroyed** | 시스템으로부터 엑티비티 종료가 되거나, kill 당하는 상태<br/>- 다시 표시될 때, 완전히 다시 시작하고 이전 상태로 복원해야 함 |
 
+이러한 상태를 그림으로 표현하면 아래와 같다
+
 
 ![Activity Lifecycle Diagram](/assets/img/posts/2022-02-10-Stages-of-the-activity-lifecycle/Activity-Lifecycle-Diagram.png)
 _엑티비티 라이프 사이클 다이어그램_
+
