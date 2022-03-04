@@ -20,6 +20,7 @@ tags: [design]
 
 ### 이미지 소스
 [Life Of Pix](https://www.lifeofpix.com/){: target="_blank"}<br/>
+[pixabay](https://pixabay.com/ko/){: target="_blank"}<br/>
 
 ### 이모지 아이콘 소스
 [이모지피디아](https://emojipedia.org/){: target="_blank"}<br/>
